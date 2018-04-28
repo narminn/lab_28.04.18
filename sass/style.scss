@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+}
+#slidedown{
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/bg.jpg);
+	.name{
+		width: 100%;
+		height: 200px;
+		img{
+		width: 50%;
+		}
+	}
+
+	
+}
+#content{
+	padding: 30px 0px;
+	.container{
+		.row{
+			.zohrali{
+				width: 100%;
+				height: 200px;
+				background-color: red;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+#chess{
+	width: 100%;
+	padding: 20px;
+	tr{
+		td{
+			width: 80px;
+			height: 80px;
+			background-color: white;
+			border: 1px solid black;
+		}
+		&:nth-child(2n+1){
+			td{
+				&:nth-child(2n+1){
+					background-color: black;
+				}
+			}
+		}
+		&:nth-child(2n+2){
+			td{
+				&:nth-child(2n+2){
+					background-color: black;
+				}
+			}
+		}
+	}
+}
